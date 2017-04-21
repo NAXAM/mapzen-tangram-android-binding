@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Mapzen.Tangram</id>
+        <version>0.5.0</version>
+        <description>Xamarin Binding Library - Mapzen Tangram</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Mapzen Tangram</title>
+        <releaseNotes>Square OkHttp3 v0.5.0</releaseNotes>
+        <summary>Xamarin Binding Library - Mapzen Tangram</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-okhttp3</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, mapzen, tangram</tags>
+        <dependencies>
+            <dependency id="Naxam.SquareUp.OkHttp3" version="3.6.0" />
+            <dependency id="Naxam.XmlPull" version="1.1.3.1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Mapzen.Tangram/bin/Release/Naxam.Mapzen.Tangram.dll" target="lib/MonoAndroid10/Naxam.Mapzen.Tangram.dll" />
+    </files>
+</package>
